@@ -44,16 +44,16 @@
 
 // task 
 
-// function deleteIt() {
-//     var h1 = document.querySelector('h1')
-//     var userConfirmation = confirm("Are you sure!")
-//     if (userConfirmation) {
-//         var data = prompt("Type \"DELETE \" text")
-//         if (data == "DELETE") {
-//             h1.remove()
-//         }
-//     }
-// }
+function deleteIt() {
+    var h1 = document.querySelector('h1')
+    var userConfirmation = confirm("Are you sure!")
+    if (userConfirmation) {
+        var data = prompt("Type \"DELETE \" text")
+        if (data == "DELETE") {
+            h1.remove()
+        }
+    }
+}
 
 
 
